@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+}
+body {
+  background-color: #dbe6ff;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/*
+ Header
+*/
+.header {
+  background-color: #1e3799;
+  height: 6.578947368421052vh;
+}
+.titulo-ancora {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.texto-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1em 1rem 0em;
+  grid-column: 2fr;
+}
+.texto-header a img {
+  padding-left: 15px;
+}
+.img-header {
+  height: 25px;
+  width: 25px;
+}
+.perfil {
+  display: flex;
+  flex-direction: column;
+  height: 55.10835913312693vh;
+}
+.capa-perfil {
+  background-image: url("/semana_1/16.04/assets/img/capa1.png");
+  height: 51.20614035087719vh;
+  width: 100%;
+}
+.foto-perfil {
+  border-radius: 50%;
+  width: 12.5vw;
+  height: 26.31578947368421vh;
+  position: absolute;
+  margin-left: 49.555vw;
+  margin-top: 30.340557275541794vh;
+  border: 6px solid #1e1e1e;
+}
+.nome {
+  margin-left: 48.555vw;
+  padding: 3rem 1em 1rem 1em;
+  font-size: 30px;
+}
+hr {
+  margin: 0% 3.125vw;
+  height: 0.2rem;
+  background-color: #6a89cc;
+}
+.container {
+  margin: 1.5479876160990713vh 3.125vw;
+}
+.container h3 {
+  font-size: 30px;
+  color: #0c2461;
+}
+.container p {
+  padding: 1rem;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0 1rem 1rem;
+}
+.sobre-mim {
+  margin-top: 1rem;
+  height: 9.287925696594428vh;
+}
+
+.box {
+  background-color: #b1c8fa;
+}
+.um-pouco div:last-child {
+  margin-right: 0;
+}
+.um-pouco div {
+  width: 30vw;
+  margin-right: 2rem;
+  height: 19.09184726522188vh;
+}
+.template-linha {
+  display: flex;
+  flex-direction: row;
+}
+.estudando {
+  height: 51.59958720330237vh;
+  width: 26.041666666666668vw;
+  padding-left: 42vw;
+}
+.footer {
+  background-color: #1e3799;
+  height: 9.287925696594428vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 49.555vw;
+}
+.footer p {
+  padding-top: 0.5rem;
+  color: #ffffff;
+}
+.footer img {
+  height: 3.0959752321981426vh;
+  width: 1.5625vw;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+
+/*
+  cv.html
+*/
+
+.foto-perfil2 {
+  border-radius: 50%;
+  width: 12.5vw;
+  height: 26.31578947368421vh;
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 30.340557275541794vh;
+  border: 6px solid #1e1e1e;
+}
+.capa-perfil2 {
+  background-image: url("/semana_1/16.04/assets/img/capa2.png");
+  height: 51.20614035087719vh;
+  width: 100%;
+}
+
+.perfil-info {
+  padding: 1rem 0rem 1rem 18rem;
+}
+.perfil-info h1 {
+  color: #0c2461;
+}
+.template-coluna {
+  margin: 1rem 1rem 0 0;
+}
+h2 {
+  padding: 1rem;
+}
