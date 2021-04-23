@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+}
+body {
+  background-color: #dbe6ff;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/*
+ Header
+*/
+.header {
+  background-color: #1e3799;
+  height: 6.578947368421052vh;
+  width: 100%;
+}
+.titulo-ancora {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.texto-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1em 1rem 0em;
+  grid-column: 2fr;
+}
+.texto-header a img {
+  padding-left: 15px;
+}
+.img-header {
+  height: 25px;
+  width: 25px;
+}
+.perfil {
+  display: flex;
+  flex-direction: column;
+  height: 55.10835913312693vh;
+}
+.capa-perfil {
+  background-image: url("/semana_1/16.04/assets/img/capa1.png");
+  height: 51.20614035087719vh;
+  width: 100%;
+}
+.foto-perfil {
+  border-radius: 50%;
+  width: 12.5vw;
+  height: 26.31578947368421vh;
+  position: absolute;
+  margin-left: 49.555vw;
+  margin-top: 30.340557275541794vh;
+  border: 6px solid #1e1e1e;
+}
+.nome {
+  margin-left: 48.555vw;
+  padding: 3rem 1em 1rem 1em;
+  font-size: 30px;
+}
+hr {
+  margin: 0% 3.125vw;
+  height: 0.2rem;
+  background-color: #6a89cc;
+  border-radius: 5px;
+}
+.container {
+  margin: 1.5479876160990713vh 3.125vw;
+}
+.container h3 {
+  font-size: 30px;
+  color: #0c2461;
+}
+.container p {
+  padding: 1rem;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0 1rem 1rem;
+}
+.sobre-mim {
+  margin-top: 1rem;
+  height: 10%;
+}
+
+.box {
+  background-color: #b1c8fa;
+  border-radius: 5px;
+}
+.um-pouco div:last-child {
+  margin-right: 0;
+}
+.um-pouco div {
+  width: 30vw;
+  margin-right: 2rem;
+  height: 15%;
+}
+.template-linha {
+  display: flex;
+  flex-direction: row;
+}
+.estudando {
+  height: 51.59958720330237vh;
+  width: 26.041666666666668vw;
+  padding-left: 42vw;
+}
+.footer {
+  background-color: #1e3799;
+  height: 9.287925696594428vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 49.555vw;
+}
+.footer p {
+  padding-top: 0.5rem;
+  color: #ffffff;
+}
+.footer img {
+  height: 3.0959752321981426vh;
+  width: 1.5625vw;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+
+/*
+  cv.html
+*/
+
+.foto-perfil2 {
+  border-radius: 50%;
+  width: 12.5vw;
+  height: 26.31578947368421vh;
+  position: absolute;
+  margin-left: 2rem;
+  margin-top: 30.340557275541794vh;
+  border: 6px solid #1e1e1e;
+}
+.capa-perfil2 {
+  background-image: url("/semana_1/16.04/assets/img/capa2.png");
+  height: 51.20614035087719vh;
+  width: 100%;
+}
+
+.perfil-info {
+  padding: 1rem 1rem 1rem 18rem;
+  display: flex;
+  flex-direction: row;
+}
+.perfil-info h1 {
+  color: #0c2461;
+}
+.mapa{
+  height: 20%;
+  width: 10%;
+  padding-left: 5rem;
+}
+.entre-em-contato {
+  height: 9rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+.entre-em-contato a{
+  text-decoration: none;
+}
+.entre-em-contato img{
+ height: 1rem;
+ width: 1rem;
+ padding-right: 0.5rem;
+}
+.template-coluna {
+  margin: 1rem 1rem 0 0;
+}
+h2 {
+  padding: 1rem;
+}
+.exibirInfo {
+  display: none;
+}
+#ver-menos {
+  display: none;
+}
+.buttonVer {
+  padding-left: 80%;
+  padding-bottom: 1rem;
+}
+.buttonVerMenos{
+  display: none;
+}
+.template-form{
+  height: 879px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.template-form img{
+  width: 600px;
+  height: 600px;
+  padding: 13rem 10rem 10rem 10rem;
+}
+form{
+  width: 80%;
+  height: 50%;
+  margin: 0 25% 0;
+  display: flex;
+  background-color: #f8f8f8;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border: 2px solid rgba(0,0,0,0.4);
+  color: #0c2461;
+}
+.content {
+  width: 90%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #dbe6ff;
+}
+textarea{
+  height: 150px;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 0 20px;
+  letter-spacing: 2px;
+  background-color: #0c2461;
+  
+  outline: none;
+  border: 1px solid rgba(0,0,0,1);
+  border-radius: 15px;
+}
+.button{
+  color: white;
+  text-decoration: none;
+}
+.label-form{
+  padding: 10% 44% 1%;
+  width: 400px;
+}
+  
+  

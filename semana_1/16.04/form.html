@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="imagem/ico" href="./assets/icons/blog.ico" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="template-form">
+    <div>
+      <img src="/semana_1/16.04/assets/img/Corporate Goals_01.svg">
+    </div>
+    <div>
+      <h1 class="label-form ">Formulário de Contato</h1>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="content" onkeyup="validaNome()">
+        <div id="txtNome"></div>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" class="content" onkeyup="validaEmail()">
+        <div id="txtEmail"></div>
+        <br>
+        <label for="assunto">Assunto:</label>
+        <textarea name="assunto" id="assunto" class="content" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+        <div id="txtAssunto"></div>
+
+        <br>
+        <button class="button" onclick="enviar()">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Feito por Yuri Dias Soares &copy;</p>
+    <div>
+      <a href="https://www.facebook.com/yuri.dias.33865/" target="_blank"> <img
+          src="./assets/img/logotipo-circular-do-facebook 1.png" alt="Link para facebook"></a>
+      <a href="https://www.instagram.com/yuri_sodias/" target="_blank"></a><img src="./assets/img/instagram.png"
+        alt="Link para instagram"></a>
+      <a href="https://www.linkedin.com/in/yuri-dias-soares/" target="_blank"><img src="./assets/img/linkedin 1.png"
+          alt="Link para linkedin"></a>
+      <a href="https://github.com/ySodias" target="_blank"> <img src="./assets/img/github.png"
+          alt="Link para github"></a>
+    </div>
+  </footer>
+  <script src="/semana_1/16.04/assets/js/script.js"></script>
+</body>
+
+</html>
